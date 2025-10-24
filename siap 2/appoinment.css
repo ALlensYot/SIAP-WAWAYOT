@@ -1,0 +1,450 @@
+@import "navbar.css";
+@import "appoinment.css";
+@import "contact.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;}
+
+ html, body {
+    background-color: #312F31;
+    scroll-behavior: smooth;
+  }
+
+.desktop {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1524px;
+  min-height: 924px;
+  position: relative;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1524px;
+  height: 924px;
+  object-fit: cover;
+}
+
+.desktop .img {
+  position: absolute;
+  top: 40px;
+  left: 43px;
+  width: 142px;
+  height: 119px;
+  aspect-ratio: 1.2;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  top: 43px;
+  left: 178px;
+  width: 45px;
+  font-family: "K2D-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .nav-bar {
+  position: absolute;
+  top: 58px;
+  left: 828px;
+  width: 562px;
+  height: 75px;
+  display: flex;
+  gap: 58px;
+}
+
+.desktop .div {
+  width: 127px;
+  height: 75px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Jura-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-2 {
+  width: 186px;
+  height: 75px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Jura-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .nav-bar-2 {
+  position: absolute;
+  top: 58px;
+  left: 828px;
+  width: 316px;
+  height: 75px;
+  display: flex;
+  gap: 58px;
+}
+
+.desktop .text-wrapper-3 {
+  height: 31px;
+  white-space: nowrap;
+  width: 127px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Jura-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  top: 58px;
+  left: 828px;
+  width: 127px;
+  text-shadow: 0px 4px 4px #00000040;
+  color: #ffffff;
+  font-size: 32px;
+  font-family: "Jura-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-5 {
+  position: absolute;
+  top: 58px;
+  left: 1013px;
+  width: 127px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Jura-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .logo {
+  position: absolute;
+  top: 43px;
+  left: 218px;
+  width: 248px;
+  height: 101px;
+}
+
+.desktop .text-wrapper-6 {
+  position: absolute;
+  top: 0;
+  left: 86px;
+  width: 45px;
+  font-family: "K2D-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-7 {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 103px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #0c0926;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-8 {
+  position: absolute;
+  top: 73px;
+  left: 12px;
+  width: 137px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-9 {
+  position: absolute;
+  top: 35px;
+  left: 137px;
+  width: 103px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #0c0926;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .rectangle-2 {
+  position: absolute;
+  top: 151px;
+  left: 367px;
+  width: 767px;
+  height: 466px;
+  background-color: #ffffff;
+}
+
+.desktop .rectangle-3 {
+  position: absolute;
+  top: 273px;
+  left: 414px;
+  width: 676px;
+  height: 664px;
+  background-color: #4585cd;
+}
+
+.desktop .rectangle-4 {
+  position: absolute;
+  top: 753px;
+  left: 809px;
+  width: 228px;
+  height: 64px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.desktop .rectangle-5 {
+  position: absolute;
+  top: 753px;
+  left: 465px;
+  width: 228px;
+  height: 64px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.desktop .text-wrapper-10 {
+  position: absolute;
+  top: 693px;
+  left: 1134px;
+  font-family: "Jura-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-11 {
+  position: absolute;
+  top: 190px;
+  left: 451px;
+  font-family: "Jura-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-12 {
+  position: absolute;
+  top: 441px;
+  left: 438px;
+  font-family: "Jura-Regular", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-13 {
+  position: absolute;
+  top: 771px;
+  left: 527px;
+  font-family: "Jura-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-14 {
+  position: absolute;
+  top: 771px;
+  left: 889px;
+  color: #000000;
+  font-size: 24px;
+  white-space: nowrap;
+  font-family: "Jura-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-15 {
+  position: absolute;
+  top: 441px;
+  left: 836px;
+  font-family: "Jura-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-16 {
+  position: absolute;
+  top: 603px;
+  left: 465px;
+  font-family: "Jura-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-17 {
+  position: absolute;
+  top: 603px;
+  left: 795px;
+  font-family: "Jura-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .element {
+  position: absolute;
+  top: 469px;
+  left: 836px;
+  font-family: "Jura-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-18 {
+  position: absolute;
+  top: 497px;
+  left: 836px;
+  font-family: "Jura-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-19 {
+  position: absolute;
+  top: 469px;
+  left: 438px;
+  font-family: "Jura-Regular", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-20 {
+  position: absolute;
+  top: 497px;
+  left: 438px;
+  font-family: "Jura-Regular", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-21 {
+  position: absolute;
+  top: 563px;
+  left: 438px;
+  font-family: "Jura-Regular", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-22 {
+  position: absolute;
+  top: 563px;
+  left: 792px;
+  font-family: "Jura-Regular", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .thank-you-for {
+  position: absolute;
+  top: 679px;
+  left: 499px;
+  font-family: "Jura-Bold", Helvetica;
+  font-weight: 700;
+  color: #00000080;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-23 {
+  position: absolute;
+  top: 336px;
+  left: 598px;
+  font-family: "Jura-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
